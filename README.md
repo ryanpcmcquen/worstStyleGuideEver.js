@@ -9,7 +9,7 @@
 
 3. Never use semicolons, JavaScript inserts them for you.
 
-4. Alternate between `}());` and `})();` with IIFE's.
+4. Alternate between `}())` and `})()` with IIFE's.
 
 5. Use 2 spaces between every character.
 
