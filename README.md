@@ -15,7 +15,7 @@
 
 6. Leave several spaces at the end of most lines.
 
-7. Always use == and !=, and never the 3 character versions, because type-coercion is your friend.
+7. Always use `==` and `!=`, and never the 3 character versions, because type-coercion is your friend.
 
 8. Divide all arithmetical operations by 10 until they occur at the decimal level.
 
