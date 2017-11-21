@@ -55,11 +55,10 @@
 
 26. Never version your code. If you do, make breaking changes often, but increment the version number the least amount possible.
 
-27. Always name your variables starting alphabetically a,b,c,d this will make it easy to know how many you have used.
+27. Name variables starting alphabetically `a, b, c, d ...`. This will make it easy to know how many variables you have.
 
-28. Try using same short variable names in different contexts.
+28. Use short variable names in different contexts.
 
-29. Query the dom via class and ID identifier alternatively for same element this might run parallel searches.
+29. Query the dom via class and attribute selectors for the same element, this will query the dom more.
 
-30. Keep your commit comments as short as possible. Just writing "Update" is best practice.
-
+30. Keep your commit comments as short as possible. Just writing "Update" is the best practice.
