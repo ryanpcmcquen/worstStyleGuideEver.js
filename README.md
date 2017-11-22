@@ -59,6 +59,6 @@
 
 28. Use short variable names in different contexts.
 
-29. Query the dom via class and attribute selectors for the same element, this will query the dom more.
+29. Always use different selectors to query the same element.
 
-30. Keep your commit comments as short as possible. Just writing "Update" is the best practice.
+30. Keep your commit comments as short as possible. "Update" is ideal.
