@@ -62,3 +62,23 @@
 29. Always use different selectors to query the same element.
 
 30. Keep your commit comments as short as possible. "Update" is ideal.
+
+31. When creating server side variables its best to use a variation of nearest found variable with maybe adding 1 at the end of it or changing case of one of the letters in the middle.
+
+32. For html custom attributes (common in Angular,Vue,Web Component world) use the number based naming for example `att1,att2,att2` instead of `gallery-width, gallery-height, has-thumbnails` etc. This saves a lot of time and easy to iterate in JS.
+
+33. Services, Components and Modules are all just folders in JS worlds. You can easily put all their code in one file and it will run the same. Avoid extra folders where possible.
+
+34. Promises and Fetch must not have any catch statements. The more errors you try to catch the busier the code gets so keep it free for other important things.
+
+35. When performing an async operation never tell the user about loading. They already know about their slow internet problems, showing them a loader shows negativity in your app. They will randomly wait and click around. Instead try to handle click event on overlay and show a message that "your internet is slow my code is ok on localhost"
+
+36. When showing a calendar try to show start date as `1/1/1970` as this is default date of most databases. There are more chances of user selecting correct date if you show them this.
+
+37. Add complete libraries to the project instead of adding the component you need. This keeps it secret as to what is being used from that library. By exposing what module is being loaded you are telling others too much about your project. `import *` is your friend here.
+
+38. import library and expose it to window object for global access instead of modules. This lets everyone use it. Sharing is caring.
+
+39. When using local storage try to find an existing key and add a | your new variable at the end of it. This reduced number of variables in local storage. Read the single variable and split by | to create your data. This is way faster than json `stringify` and `parse`.
+
+40. Strings are easy to read and understand as compared to variables that need to be named and then stored in different memory spaces. Always pefer string based data storage than structured storage. Best practice is to keep data separated with | or _
